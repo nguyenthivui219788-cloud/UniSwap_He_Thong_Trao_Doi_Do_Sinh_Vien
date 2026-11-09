@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="UniSwap Admin - Quản lý sản phẩm và đồ dùng sinh viên.">
+    <title>Quản lý sản phẩm - UniSwap Admin</title>
+    <!-- Google Fonts: Inter & Rajdhani chuẩn phong cách Techno Admin -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Rajdhani:wght@500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="quanlisanpham.css">
+</head>
+<body>
+    <div class="dashboard-container">
+        <!-- ==========================================================================
+           SIDEBAR ĐIỀU HƯỚNG BÊN TRÁI (TỐI)
+           ========================================================================== -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <div class="sidebar-logo">
+                    <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                        <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                        <polyline points="2 17 12 22 22 17"></polyline>
+                        <polyline points="2 12 12 17 22 12"></polyline>
+                    </svg>
+                </div>
+                <div class="sidebar-brand-name">
+                    <span class="brand-text-white">UniSwap</span>
+                    <span class="brand-text-gold">ADMIN</span>
+                </div>
+            </div>
+
+            <nav class="sidebar-nav">
+                <ul>
+                    <li>
+                        <a href="dashboard.html">
+                            <span class="nav-icon">
+                                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <rect x="3" y="3" width="7" height="9"></rect>
+                                    <rect x="14" y="3" width="7" height="5"></rect>
+                                    <rect x="14" y="12" width="7" height="9"></rect>
+                                    <rect x="3" y="16" width="7" height="5"></rect>
+                                </svg>
+                            </span>
+                            <span class="nav-text">Dashboard</span>
+                        </a>
+                    </li>
+                    <li class="active">
+                        <a href="quanlisanpham.html">
+                            <span class="nav-icon">
+                                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                                    <polyline points="2 17 12 22 22 17"></polyline>
+                                    <polyline points="2 12 12 17 22 12"></polyline>
+                                </svg>
+                            </span>
+                            <span class="nav-text">Quản lý sản phẩm</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="quanlibaiviet.html">
+                            <span class="nav-icon">
+                                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                                    <polyline points="14 2 14 8 20 8"></polyline>
+                                    <line x1="16" y1="13" x2="8" y2="13"></line>
+                                    <line x1="16" y1="17" x2="8" y2="17"></line>
+                                    <polyline points="10 9 9 9 8 9"></polyline>
+                                </svg>
+                            </span>
+                            <span class="nav-text">Quản lý bài viết</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="lichsugiaodich.html">
+                            <span class="nav-icon">
+                                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M4 2v20l2-1 2 1 2-1 2 1 2-1 2 1 2-1 2 1V2l-2 1-2-1-2 1-2-1-2 1-2-1-2 1Z"></path>
+                                    <line x1="8" y1="7" x2="16" y2="7"></line>
+                                    <line x1="8" y1="11" x2="16" y2="11"></line>
+                                    <line x1="8" y1="15" x2="12" y2="15"></line>
+                                </svg>
+                            </span>
+                            <span class="nav-text">Lịch sử giao dịch</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="baocaovipham.html">
+                            <span class="nav-icon">
+                                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path>
+                                    <line x1="12" y1="9" x2="12" y2="13"></line>
+                                    <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                                </svg>
+                            </span>
+                            <span class="nav-text">Báo cáo vi phạm</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/">
+                            <span class="nav-icon">
+                                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                                    <polyline points="9 22 9 12 15 12 15 22"></polyline>
+                                </svg>
+                            </span>
+                            <span class="nav-text">Về Chợ sinh viên</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="sidebar-user" id="sidebarUserDropdownBtn">
+                <div class="user-avatar-wrapper">
+                    <span class="user-avatar-letter">S</span>
+                </div>
+                <div class="user-info">
+                    <span class="user-name-text">Super Admin</span>
+                    <span class="user-role-text">Quản trị viên hệ thống</span>
+                </div>
+                <span class="user-dropdown-arrow">
+                    <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="6 9 12 15 18 9"></polyline>
+                    </svg>
+                </span>
+                <div class="user-dropdown-menu hidden" id="userDropdownMenu">
+                    <a href="#" id="logoutBtn" class="dropdown-item text-red">
+                        <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path>
+                            <polyline points="16 17 21 12 16 7"></polyline>
+                            <line x1="21" y1="12" x2="9" y2="12"></line>
+                        </svg>
+                        Đăng xuất
+                    </a>
+                </div>
+            </div>
+        </aside>
+
+        <!-- ==========================================================================
+           NỘI DUNG CHÍNH (SÁNG)
+           ========================================================================== -->
+        <main class="main-content">
+            <header class="main-header">
+                <div class="header-title-section">
+                    <h1>Quản lý sản phẩm <span class="header-dot">.</span></h1>
+                    <p>Quản lý toàn bộ đồ dùng & linh kiện sinh viên đăng bán trên sàn UniSwap</p>
+                </div>
+                
+                <div class="header-actions-section">
+                    <div class="live-datetime-badge">
+                        <span class="live-dot"></span>
+                        <span id="liveDateTimeDisplay">Đang đồng bộ giờ...</span>
+                    </div>
+
+                    <div class="header-search">
+                        <svg viewBox="0 0 24 24" width="16" height="16" class="search-icon" fill="none" stroke="currentColor" stroke-width="2.5">
+                            <circle cx="11" cy="11" r="8"></circle>
+                            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                        </svg>
+                        <input type="text" id="productSearchInput" placeholder="Tìm theo tên hoặc mã SP...">
+                    </div>
+                    
+                    <button class="header-btn" title="Thông báo hệ thống">
+                        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path>
+                            <path d="M13.73 21a2 2 0 0 1-3.46 0"></path>
+                        </svg>
+                        <span class="notification-badge">1</span>
+                    </button>
+                    
+                    <div class="header-profile-widget">
+                        <div class="profile-avatar">UA</div>
+                        <div class="profile-meta">
+                            <span class="profile-name">user admin</span>
+                            <span class="profile-role">Super Admin</span>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Thanh chức năng & Bộ lọc danh mục -->
+            <section class="action-filters-bar">
+                <button class="btn-add-product" id="openAddModalBtn">
+                    <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5">
+                        <line x1="12" y1="5" x2="12" y2="19"></line>
+                        <line x1="5" y1="12" x2="19" y2="12"></line>
+                    </svg>
+                    Thêm sản phẩm mới
+                </button>
+
+                <div class="category-filters-list">
+                    <button class="filter-btn active" data-category="Tất cả">Tất cả</button>
+                    <button class="filter-btn" data-category="Sách & giáo trình">Sách & giáo trình</button>
+                    <button class="filter-btn" data-category="Đồ công nghệ">Đồ công nghệ</button>
+                    <button class="filter-btn" data-category="Đồ phòng trọ">Đồ phòng trọ</button>
+                    <button class="filter-btn" data-category="Thời trang">Thời trang</button>
+                    <button class="filter-btn" data-category="Thể thao">Thể thao</button>
+                    <button class="filter-btn" data-category="Đồ học tập">Đồ học tập</button>
+                    <button class="filter-btn" data-category="Handmade">Handmade</button>
+                </div>
+            </section>
+
+            <!-- Bảng dữ liệu sản phẩm -->
+            <section class="data-table-card">
+                <div class="table-header-toolbar">
+                    <div class="table-count-label">
+                        Danh sách bài đăng trao đổi
+                        <span class="table-count-badge" id="productCountBadge">0 sản phẩm</span>
+                    </div>
+                    <div>
+                        <select id="campusFilterSelect" style="padding: 6px 12px; border-radius: 6px; border: 1px solid var(--border-color); font-size: 13px;">
+                            <option value="all">Tất cả tình trạng</option>
+                            <option value="verified">Đã duyệt Campus Check</option>
+                            <option value="unverified">Chưa kiểm duyệt</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="table-responsive">
+                    <table class="products-table">
+                        <thead>
+                            <tr>
+                                <th style="width: 320px;">Sản phẩm</th>
+                                <th>Danh mục</th>
+                                <th>Người đăng</th>
+                                <th>Giá bán</th>
+                                <th>Campus Check</th>
+                                <th>Trạng thái</th>
+                                <th style="text-align: right;">Thao tác</th>
+                            </tr>
+                        </thead>
+                        <tbody id="productsTableBody">
+                            <tr>
+                                <td colspan="7" style="text-align: center; padding: 40px; color: #94A3B8;">
+                                    Đang tải dữ liệu sản phẩm từ hệ thống...
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="table-footer">
+                    <span id="footerInfoText">Hiển thị 1 - 5 / 0 sản phẩm</span>
+                    <div class="pagination-wrapper">
+                        <button class="pagination-btn" id="prevPageBtn" title="Trang trước">
+                            <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5">
+                                <polyline points="15 18 9 12 15 6"></polyline>
+                            </svg>
+                        </button>
+                        <div class="pagination-numbers" id="paginationNumbers"></div>
+                        <button class="pagination-btn" id="nextPageBtn" title="Trang sau">
+                            <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5">
+                                <polyline points="9 18 15 12 9 6"></polyline>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- Modal thêm sản phẩm mới -->
+    <div class="modal-overlay hidden" id="addProductModal">
+        <div class="modal-box">
+            <div class="modal-header">
+                <h3>Thêm sản phẩm mới lên sàn UniSwap</h3>
+                <button class="btn-close-modal" id="closeAddModalBtn">&times;</button>
+            </div>
+            <form id="addProductForm">
+                <div class="form-group">
+                    <label>Tiêu đề bài đăng / Tên sản phẩm *</label>
+                    <input type="text" id="newTitle" required placeholder="Ví dụ: Giáo trình Giải Tích 1 ĐH Bách Khoa...">
+                </div>
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 14px;">
+                    <div class="form-group">
+                        <label>Danh mục *</label>
+                        <select id="newCategory" required>
+                            <option value="Sách & giáo trình">Sách & giáo trình</option>
+                            <option value="Đồ công nghệ">Đồ công nghệ</option>
+                            <option value="Đồ phòng trọ">Đồ phòng trọ</option>
+                            <option value="Thời trang">Thời trang</option>
+                            <option value="Thể thao">Thể thao</option>
+                            <option value="Đồ học tập">Đồ học tập</option>
+                            <option value="Handmade">Handmade</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Giá bán (VNĐ) *</label>
+                        <input type="number" id="newPrice" required placeholder="0 = Tặng miễn phí">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Đường dẫn ảnh đại diện (URL)</label>
+                    <input type="text" id="newImageUrl" placeholder="https://... hoặc để trống dùng ảnh mặc định">
+                </div>
+                <div class="form-group">
+                    <label>Mô tả tình trạng chi tiết</label>
+                    <textarea id="newDescription" rows="3" placeholder="Mô tả phụ kiện kèm theo, tình trạng sử dụng..."></textarea>
+                </div>
+                <div class="form-group">
+                    <label style="display: flex; align-items: center; gap: 8px; cursor: pointer;">
+                        <input type="checkbox" id="newCampusCheck" checked style="width: auto;">
+                        Cấp ngay nhãn xác thực Campus Check (An toàn cho sinh viên)
+                    </label>
+                </div>
+                <div class="modal-actions">
+                    <button type="button" class="btn-secondary" id="cancelAddBtn">Hủy bỏ</button>
+                    <button type="submit" class="btn-primary-red">Lưu & Đăng ngay</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="quanlisanpham.js"></script>
+</body>
+</html>

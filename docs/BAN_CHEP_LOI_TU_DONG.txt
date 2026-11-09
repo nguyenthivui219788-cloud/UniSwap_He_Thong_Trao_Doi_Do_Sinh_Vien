@@ -1,0 +1,168 @@
+[0.0-6.0]  Đúng không? Thì lúc em có 2 cơ sở dứa liệu, 1 cơ sở dứa liệu lock in này vào
+[6.0-13.0]  1 cơ sở dứa liệu của người mua, nếu người mua display là register mua, là 2 cơ sở dứa liệu
+[13.0-19.0]  Cơ sở mấy hình ảnh với cái này thì em đã có trong cơ sở dứa liệu sản phẩm rồi, trước làm rồi biết đúng không?
+[19.0-23.0]  Hiện thị này là 3 cơ sở dứa liệu đúng không? Hình ảnh thì mình cho lot lên nữa
+[23.0-31.0]  Display, sau khi người ta order thì mình vô chế độ order mod, chế độ order mod thì em có 1 cái form rồi
+[31.0-39.0]  Tên là gì đó thì số yên thoại đây thì bạn sẽ nghĩ là tôi đặt chỗ order thì chỗ này nó sẽ hit đành
+[39.0-42.0]  Tại khi nó sẽ hit đành thì không cho nó khác đặt nữa
+[43.0-48.0]  Ví dụ hit đành sau bên kia bấm bên người mua bắt đầu nó là sản sếp phun
+[48.0-54.0]  Sáng nhận là tôi mua sản sếp phun rồi thì nó xóa đi, không phải xóa nữa mà...
+[54.0-55.0]  Đóng
+[55.0-59.0]  Đóng close thì hiện cái chỗ này order thành chức close
+[59.0-63.0]  Xong này nó kiệt cáo hay gì thì mình còn nhớ này chỗ này nó còn cái này
+[63.0-65.0]  Dạ
+[65.0-81.0]  Hồi nãy tụi em các bạn là cái riêng người bán đăng bài 3 lần thì tới lần thứ 4 thì phải mở lên VB để 1 năm sẽ khoảng 250 hiệu
+[81.0-83.0]  Không được đừng theo tháng thôi cho người ta thoải mái đi
+[83.0-86.0]  Nó mua nó có tiền, mua thì mình có thu tiền được mà
+[86.0-91.0]  Tại vì mình sẽ thu tiền, đây là 2.000 người ta mua, 50.000 1 tháng nó mua nhiều kẻ đó
+[91.0-96.0]  Mình sẽ lấy đừng có chập trung cho 1 người mà tập trung xíu đông, người ta mua nhiều thì kẻ nó
+[96.0-105.0]  Nhưng mà chỗ này là khi hiện đây thì mình sẽ hiện thị tụ đồ là bao nhiêu và cái bát của cái tụ đồ đó là bao nhiêu
+[105.0-110.0]  Ví dụ đến đó là sau đó là em chỉ cần mô phỏng thôi, mô phỏng của cái tụ như thế này
+[110.0-115.0]  Thì sẽ có trường sẽ đầu tư cái tụ mình demo thôi mà
+[115.0-119.0]  Sau vậy đó nó sẽ có cái mã bát thì mình chỉ có đánh cái bát này cho bạn đó
+[119.0-124.0]  Sau khi bát xong thì cái đó nó sẽ không còn hiệu lực nữa
+[124.0-127.0]  Tức là bị mở 1 lần thì cái bát này có như xóa
+[127.0-130.0]  Sau họ đến họ mở cái bát nó không được nữa
+[130.0-134.0]  Tại tránh cho cái tụ bát này là em nhớ cái bát này chị sai 1 lần
+[134.0-136.0]  Cái là bát này là đen đung
+[136.0-140.0]  Khi mà tạo ra cái bát đen đung này thì trong lúc em biết có thì em nghĩ là bát đen đung này
+[140.0-147.0]  Vì nó cũng có 6 chữ hay là 1 cái ổ khóa mình có ai như chữ thì mình bát này chỉ có đen đung thôi
+[147.0-151.0]  Mà khi người ta bấm sạch xếp khun rồi thì tức là cái bát này sẽ xóa
+[151.0-155.0]  Tức là cầu và tương tương cái bát này sẽ xóa đi
+[155.0-157.0]  Đi lít thì lần sau nó có bát mới thôi
+[157.0-160.0]  Đi lít thì mình bắt đâu mình tạo sao, hãy mới hơn
+[160.0-164.0]  Mình có 1 cái cơ sở dữ liệu về tụi đồ nữa
+[164.0-167.0]  Mỗi tụi đồ này sẽ có cái bát
+[167.0-172.0]  Khi mà cái bát đó nó đi lít rồi thì chỗ kia là không không không thôi thì bắt đầu nó tạo bát mới
+[172.0-175.0]  Thì nó chỉ đơn giản vậy thôi
+[175.0-178.0]  Rồi hand-max thì em cũng làm như vậy
+[178.0-182.0]  Mấy món đòi chắc cũng dẫn hàm heo nhỉ
+[182.0-185.0]  Nhưng mà tìm xem có 1 cái gì nữa cho nó hay ho
+[185.0-190.6]  Trong giết đàn như là cà phê học nhóm
+[190.6-196.1]  Rồi kiểu nó có bị động quá mà
+[196.1-199.1]  Cháu đổi sách, dù sách này mình đọc xong thì mình muốn cháu đổi bên kia
+[199.1-202.1]  Thì mình sẽ nói cà phê sách, dù tôi đọc sách này bạn mượn sách đó về đọc đúng không
+[202.1-206.1]  Giờ tôi với bạn ngồi thảo luận với nhau cái sách có hay không
+[206.1-211.1]  Thì là trong cái giết đàn thì gọi là bút tầng số gì đó
+[211.1-215.1]  Bút tầng số, em em làm bút tầng số thôi
+[215.1-221.3]  Câu có giết đàn này kia đó thì nó sẽ hay hơn
+[221.3-224.3]  Đợi có cái gì nữa không
+[225.3-228.3]  Hay là ra xưa thì có 1 thèm
+[228.3-231.3]  Thành nghĩ là thêm 1 phần nữa là 1 phần nhỏ nhỏ là
+[231.3-234.3]  Tôi yếu cái này tôi có nhu cầu dạy
+[234.3-236.3]  Tôi cần những chiếc kiếm
+[236.3-239.3]  Ra xưa, ra xưa, ra xưa sinh viên
+[239.3-242.3]  Giờ tôi học con này thấp quá, bạn chị nào dạy tôi cái phần này không
+[242.3-246.3]  Tiếng theo giờ, thì lúc đó mình thêm được cái tiền đấy thì nó sẽ đá dạng hơn
+[246.3-250.3]  Ví dụ như em phá trên mà phá dưới nó yếu cái môn này thì nó bóp bài lên
+[250.3-256.3]  Y chang như thế này nhưng mà nó không có lấy là trao đuổi đồ và trao đuổi học thuật
+[256.3-258.3]  Cứ gần rồi là trao đuổi học thuật
+[258.3-261.3]  Thì trong đó mình sẽ nói là ửa tới học si cộng cộng
+[261.3-265.3]  Cái này là phạm vi của nó là trường mình hay là
+[265.3-268.3]  Trường nào ám dụng cũng được hết, thay logo thôi
+[268.3-272.3]  Thì nó là 1 cái fame world giống nhau hết
+[272.3-279.3]  Ví dụ như em học Đại Hồn Vương đi mà các bạn ở bên dù như gia đình thì đấy
+[279.3-281.3]  Món nhờ dạy đi
+[281.3-283.3]  Thì búp bài đó thôi
+[283.3-287.3]  Nhưng mà trong register thì em đừng có đang nhập vào một người thầng sinh viên
+[287.3-290.3]  Sinh viên thì em chỉ có sinh viên chuẩn bịn thôi
+[290.3-292.3]  Chỉ có khi nào mua
+[292.3-295.3]  Thì những cái sinh viên
+[295.3-300.3]  Theo mà số sinh viên là sẽ đang nhập là họ sẽ vô 1 khu vực riêng cho sinh viên đó
+[300.3-305.3]  Những cái sinh viên trường khác là họ đang nhập là họ cũng vô những điện đèn khác họ
+[305.3-310.3]  À, em tưởng là nó vô cái nội cái đồng luôn
+[310.3-315.3]  Sao mình không làm 1 cái chung luôn rồi mình đang ký bằng mêo edu
+[315.3-317.3]  Thì em nói là bạn ấy qua trường khác
+[317.3-321.3]  Ừ, thì nếu như mình cho tất cả đăng ký bằng mêo edu thì trường khác mà nghe được
+[321.3-323.3]  Chắc bằng edu thì cũng được
+[323.3-326.3]  Thì trong cái phần register thì chắc là nghe edu thôi
+[326.3-329.3]  Chắc cái nuôi là chấm edu chấm nhé là được
+[329.3-331.3]  Nó chức lực ra
+[331.3-333.3]  Cái đấy thì kiện ra được thôi
+[333.3-339.4]  Nhưng mà dù ở ngoài trường thì mình phải lúc ra
+[339.4-343.4]  Mấy người ta nói là nhớ có kiện cáo gì thì mình qua trường khác thì nó không có cái gì bên trường kia
+[343.4-346.4]  Nó không công nhận thì sao không? Bây giờ nó là kiện cáo là dân sợ mà
+[346.4-348.4]  Đâu phải trong trường đâu
+[348.4-349.4]  Đúng không?
+[349.4-352.4]  Ví dụ như nó phải bên 2 bên trường bạo trợ nó nhau
+[352.4-354.4]  Vì ý của bạn ấy cũng hay
+[354.4-358.4]  Nhưng mà bây giờ mình làm cái điều khoản đấy mình phải nhớ cái điều khoản đấy
+[358.4-364.4]  Tức là bạn đồng ý là bạn đã đăng ký thành viên của tôi thì bạn phải điều khoản đó bạn đổ có
+[364.4-366.4]  Bây giờ nó chảy cái gì do trường hợp là nó các trường
+[366.4-369.4]  Bây giờ nó kiện cáo thì mình sẽ phải đi đây
+[369.4-372.4]  Nên là có điều khoản sử dụng đi
+[372.4-375.4]  Đăng ký phải đồng ý với cái điều khoản sử dụng
+[375.4-379.4]  Là chúng tôi được sử dụng cái thông tin của bạn trong trường hợp làm gì gì đó
+[379.4-382.4]  Tức là không phải sử dụng cái thông tin cái nhân là chết
+[382.4-385.4]  Bây giờ đầu tiên là thích kế logo đi
+[385.4-390.1]  Rồi thích kế cái trang register đi
+[390.1-397.3]  Xong này hồi bé đi
+[397.3-402.3]  Rồi biển trang một trang và kêu tránh vvt() nó kêu điều khoản mua bán
+[402.3-405.3]  Chào đội đồ cho sinh viên thì nó cũng tạo cho em yên
+[405.3-411.3]  Mà cho em hồi lại là cái này là tất cả sinh viên là họ sẽ đăng nhập vào
+[411.3-415.3]  Bây giờ là họ sẽ được gặp nhau tất cả sinh viên được này trường khác luôn hay là
+[415.3-425.5]  Nên là cái chỗ này mình sẽ thêm một cái điều tượng của university nữa 있잖아요
+[425.5-431.5]  Đó thì nó sẽ gồm như thế này thì em thử chẳng bí tiên nó làm ra hình gì không?
+[431.5-440.5]  Hồi nãy thì em có bàn có hình dịch vụ đẩy bài lên trang đầu tiên, duy trì trong đầu tiên
+[441.5-445.5]  Trong cái phần đây nè
+[445.5-448.5]  Đây nè, new đây nè
+[448.5-455.5]  Hãy sẽ bỏ tiền ra để được boot lên cái bài ở trang đầu tiên trong dòng bao nhiêu giờ?
+[455.5-460.5]  Trong register này thì nếu mà em lúc mà người ta register để bài ở đây nè
+[460.5-463.5]  Cái bàn mà chỗ này là free nè
+[463.5-466.5]  Thì sẽ được thượng này còn đây là premium
+[466.5-469.5]  Premium là tôi boot bài của anh lên trước thôi
+[469.5-473.5]  Premium là em có 2 trái độ mà free mà premium thư tiền
+[473.5-476.5]  Thư tiền là 50k 1 tháng đúng không?
+[476.5-480.9]  Thì sẽ được boot lên bài đầu tiên
+[480.9-482.9]  Sẽ luôn luôn về vị trí 1, 2, 3
+[482.9-484.9]  Từ 1 tới 10
+[484.9-490.2]  Premium thì trong premium em có 1 điều khoản cho người ta
+[490.2-493.2]  Nhưng các bài sẽ nằm ở trên top từ 1 tới 10
+[493.2-495.2]  Đúng không?
+[495.2-496.2]  Thế thôi
+[496.2-497.2]  2 cái này
+[497.2-498.2]  2 nhau
+[498.2-500.2]  Đang bán mà đang mua
+[500.2-502.2]  Một cái hằng đó
+[502.2-506.2]  Nó vừa bán gì mua là nó sẽ mua 2 cái 2 gói luôn
+[506.2-512.1]  Ừ
+[512.1-515.1]  Nếu không thì em cho 1 cái gói vừa mua bán thì em sẽ giảm giá
+[515.1-516.1]  75k
+[516.1-518.1]  Lúc mà em cứ vô đây
+[518.1-521.1]  Xong đó em tạo ra mọi người ta register đây đúng không?
+[521.1-523.1]  Thì em sẽ ra 1 trang như thế này
+[523.1-525.1]  register đây là người bán đúng không?
+[525.1-528.1]  Người bán thì em sẽ chia làm 2 loại
+[528.1-530.1]  Free và premium
+[530.1-532.1]  Người mua thì tôi đang ký bên đây
+[532.1-533.1]  Đúng không?
+[533.1-535.1]  Ở dưới em nói là cả 2
+[535.1-539.1]  Thì em thêm 1 cái cột cả 2 nữa thì em giảm giá cho người ta
+[539.1-546.1]  Giảm giá thì em cũng tương đương nên giảm giá là có bạm premium nữa
+[546.1-553.5]  Kiểu nhiều người
+[553.5-555.5]  Nặng nổi thế
+[555.5-559.5]  Em dùng form gì mà tạo xấu được
+[559.5-561.5]  Hand-secking bé thôi
+[561.5-563.5]  Hand-secking em nói đơn dạng được
+[563.5-566.5]  dạng lược nữa, thêm cái từ dạng lược nữa
+[566.5-568.5]  Thế có kêu là dạng lược bé bằng tay được
+[568.5-577.9]  Dạng lược nó
+[577.9-579.9]  Vô sỏi là bạn là người mua hay người bán
+[579.9-581.9]  Hay là cá 2
+[581.9-585.9]  Xong rồi sẽ show cái giói bên mình
+[585.9-589.9]  Cái có cá 2 là sở hộ cái gì
+[589.9-591.9]  được sử dụng tất cả cái dịch vụ của mình
+[591.9-595.9]  Tất nhiên giá rõ hơn
+[595.9-597.9]  Thì giá có 3 loại đúng không?
+[597.9-599.9]  Người bán người mua và phun
+[599.9-601.9]  Phun trước năng
+[601.9-604.9]  Phun trước năng thì bạn chung
+[614.6-617.6]  Vô thì ngồi chế kế thì hôm nay ráng làm cho xong đi
+[628.3-630.3]  Ngồi thào luật với nhau đi
+[630.3-632.3]  Chờ 2 người nữa lên là ngồi chung với em nữa
+[632.3-635.3]  Nó là mình sửa máy, em bờ máy lên đi
+[635.3-637.3]  Ngồi làm chế kế lâu mô lại đi
+[637.3-640.3]  Giờ mình hồn vào bế che đó
+[640.3-643.3]  Em show web chơi
+[643.3-645.3]  Cô em đã coi
+[645.3-647.3]  Tạm biệt

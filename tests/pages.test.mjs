@@ -1,0 +1,6 @@
+import {test} from 'node:test';
+import assert from 'node:assert/strict';
+import {readSitePage,pagePaths} from '../src/lib/pages.ts';
+import {calendarEvent} from '../src/lib/calendar.ts';
+test('dedicated page URLs survive direct navigation and retain the legacy Premium link',()=>{for(const [key,path] of Object.entries(pagePaths)){assert.equal(readSitePage(path),key);assert.equal(readSitePage(path+'/'),key)}assert.equal(readSitePage('/','?page=premium'),'premium');assert.equal(readSitePage('/cong-dong','?topic=id'),'community')});
+test('calendar export preserves timezone and escapes user text without injecting event fields',()=>{const ics=calendarEvent({id:'event1',title:'Học nhóm, vui; cùng nhau',text:'Dòng một\nATTENDEE:injected',schedule:'2026-11-01T09:00:00+07:00',url:'https://example.com/cong-dong?topic=event1'});assert.match(ics,/DTSTART:20261101T020000Z/);assert.match(ics,/SUMMARY:Học nhóm\\, vui\\; cùng nhau/);assert.match(ics,/DESCRIPTION:Dòng một\\nATTENDEE:injected/);assert.equal(ics.split('\r\n').some(s=>s.startsWith('ATTENDEE:')),false);assert.throws(()=>calendarEvent({id:'a',title:'x',text:'',schedule:'invalid',url:''}));for(const line of ics.split('\r\n'))assert.ok(Buffer.byteLength(line)<=75)});

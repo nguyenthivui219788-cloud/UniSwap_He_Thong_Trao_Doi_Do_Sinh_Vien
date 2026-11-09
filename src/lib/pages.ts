@@ -1,0 +1,4 @@
+export type SitePage='demo'|'market'|'wanted'|'community'|'guide'|'premium'|'api'|'giveaway';
+export const pagePaths:Record<SitePage,string>={demo:'/kho-demo',market:'/',wanted:'/can-mua',community:'/cong-dong',guide:'/huong-dan',premium:'/premium',api:'/huong-dan-api',giveaway:'/goc-cho-tang'};
+export const pageLabels:Record<SitePage,string>={demo:'Kho đồ demo',market:'Chợ sinh viên',wanted:'Cần mua / cần tìm',community:'Cộng đồng',guide:'Hướng dẫn giao dịch',premium:'Premium',api:'Hướng dẫn API',giveaway:'Góc cho tặng 0đ'};
+export function readSitePage(path:string,search=''):SitePage{const clean=path.replace(/\/+$/,'')||'/';if(clean==='/'&&new URLSearchParams(search).get('page')==='premium')return 'premium';return (Object.keys(pagePaths) as SitePage[]).find(k=>pagePaths[k]===clean)||(new URLSearchParams(search).get('page')==='premium'?'premium':'market');}

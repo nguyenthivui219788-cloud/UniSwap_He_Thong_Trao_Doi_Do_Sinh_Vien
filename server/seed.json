@@ -1,0 +1,496 @@
+[
+  {
+    "id": "p1",
+    "title": "Giáo trình Cấu trúc dữ liệu & Giải thuật (Kèm bộ đề thi có giải)",
+    "price": 35000,
+    "tradeType": "sale",
+    "category": "books",
+    "majorGroup": "it",
+    "description": "Sách in rõ nét, đã highlight các phần trọng tâm thi cuối kỳ của thầy T. Tặng kèm tập photo đề thi 3 năm gần nhất có lời giải chi tiết. Pass nhanh để dọn bàn học.",
+    "condition": "95% (Có ghi chú chì)",
+    "images": [
+      "/assets/prod-books.png"
+    ],
+    "seller": {
+      "id": "s1",
+      "name": "Trần Minh Đức",
+      "studentId": "22520311",
+      "universityCode": "UIT",
+      "avatar": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=200&q=80",
+      "rating": 5,
+      "isVerified": true,
+      "isPro": true
+    },
+    "cluster": "lang-dh",
+    "meetingSpot": "Thư viện UIT tầng 1 hoặc KTX Khu B (Tòa B4)",
+    "createdAt": "10 phút trước",
+    "isUrgent": true,
+    "isPushed": true,
+    "pushedAt": "Vừa đẩy",
+    "status": "available",
+    "views": 142,
+    "likes": 18
+  },
+  {
+    "id": "p2",
+    "title": "MacBook Air M1 2020 dùng học tập",
+    "price": 7500000,
+    "tradeType": "sale",
+    "category": "electronics",
+    "majorGroup": "general",
+    "description": "Bài minh họa UniSwap. Ảnh và thông tin dùng thử cho danh mục electronics. Khi đăng thật hãy dùng ảnh của chính món đồ và mô tả tình trạng thực tế.",
+    "condition": "98% như mới",
+    "images": [
+      "/assets/prod-macbook.png"
+    ],
+    "seller": {
+      "id": "s2",
+      "name": "Lê Thu Thảo",
+      "studentId": "2311542",
+      "universityCode": "HCMUT",
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=200&q=80",
+      "rating": 4.8,
+      "isVerified": true,
+      "isPro": false
+    },
+    "cluster": "lang-dh",
+    "meetingSpot": "Sảnh Tòa H6 ĐH Bách Khoa CS2 (Làng ĐH)",
+    "createdAt": "35 phút trước",
+    "status": "available",
+    "views": 290,
+    "likes": 34
+  },
+  {
+    "id": "p3",
+    "title": "[TẶNG 0Đ] Trọn bộ tài liệu ôn thi Triết học Mác-Lênin & Kinh tế chính trị",
+    "price": 0,
+    "tradeType": "giveaway",
+    "category": "books",
+    "majorGroup": "general",
+    "description": "Mình vừa thi qua môn 8.5 điểm nên pass lại 0 đồng cho bạn nào khóa dưới cần. Gồm 2 quyển giáo trình + tập đề cương ôn tập tổng hợp 60 câu hỏi tự luận.",
+    "condition": "Dùng tốt",
+    "images": [
+      "/assets/prod-books.png"
+    ],
+    "seller": {
+      "id": "s3",
+      "name": "Võ Hoàng Quân",
+      "studentId": "31221021",
+      "universityCode": "UEH",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=200&q=80",
+      "rating": 5,
+      "isVerified": true,
+      "isPro": false
+    },
+    "cluster": "q10",
+    "meetingSpot": "Cơ sở B UEH (279 Nguyễn Tri Phương, Q.10)",
+    "createdAt": "1 giờ trước",
+    "status": "available",
+    "views": 450,
+    "likes": 67
+  },
+  {
+    "id": "p4",
+    "title": "Đèn bàn học LED — thanh lý góc học tập",
+    "price": 90000,
+    "tradeType": "sale",
+    "category": "dorm",
+    "majorGroup": "general",
+    "description": "Bài minh họa UniSwap. Ảnh và thông tin dùng thử cho danh mục dorm. Khi đăng thật hãy dùng ảnh của chính món đồ và mô tả tình trạng thực tế.",
+    "condition": "Hoạt động tốt",
+    "images": [
+      "/assets/prod-lamp.png"
+    ],
+    "seller": {
+      "id": "s4",
+      "name": "Đặng Tuấn Kiệt",
+      "studentId": "20120155",
+      "universityCode": "HCMUS",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=200&q=80",
+      "rating": 4.7,
+      "isVerified": true,
+      "isPro": false
+    },
+    "cluster": "q5",
+    "meetingSpot": "Cổng sau KHTN (Đường An Dương Vương, Q.5)",
+    "createdAt": "2 giờ trước",
+    "isUrgent": true,
+    "status": "available",
+    "views": 180,
+    "likes": 12
+  },
+  {
+    "id": "p5",
+    "title": "[ĐỔI ĐỒ] Đổi Giáo trình Kinh tế Vi mô lấy Kinh tế Vĩ mô",
+    "price": 0,
+    "tradeType": "swap",
+    "swapFor": "Giáo trình Kinh tế Vĩ mô (NXB ĐHQG hoặc Kinh Tế)",
+    "category": "books",
+    "majorGroup": "economics",
+    "description": "Mình học xong Vi mô kỳ này rồi, kỳ tới học Vĩ mô. Bạn nào có sách Vĩ mô muốn đổi thì giao lưu nhé, sách mình giữ rất kỹ không quăn mép.",
+    "condition": "95% sạch đẹp",
+    "images": [
+      "/assets/prod-books.png"
+    ],
+    "seller": {
+      "id": "s5",
+      "name": "Nguyễn Mai Phương",
+      "studentId": "31231045",
+      "universityCode": "SGU",
+      "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=200&q=80",
+      "rating": 4.9,
+      "isVerified": true,
+      "isPro": false
+    },
+    "cluster": "q5",
+    "meetingSpot": "Sân cờ ĐH Sài Gòn (Cơ sở chính)",
+    "createdAt": "3 giờ trước",
+    "status": "available",
+    "views": 95,
+    "likes": 9
+  },
+  {
+    "id": "p6",
+    "title": "Cho mượn balo laptop đi học và đi thi",
+    "price": 10000,
+    "tradeType": "borrow",
+    "borrowDuration": "Mượn 1–2 ngày",
+    "category": "other",
+    "majorGroup": "general",
+    "description": "Bài minh họa UniSwap. Ảnh và thông tin dùng thử cho danh mục other. Khi đăng thật hãy dùng ảnh của chính món đồ và mô tả tình trạng thực tế.",
+    "condition": "Đã giặt ủi sạch sẽ",
+    "images": [
+      "/assets/prod-backpack.png"
+    ],
+    "seller": {
+      "id": "s6",
+      "name": "Phạm Minh Khang",
+      "studentId": "52000889",
+      "universityCode": "TDTU",
+      "avatar": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=200&q=80",
+      "rating": 5,
+      "isVerified": true,
+      "isPro": true
+    },
+    "cluster": "nam-sai-gon",
+    "meetingSpot": "Thư viện Tôn Đức Thắng (Q.7)",
+    "createdAt": "5 giờ trước",
+    "status": "available",
+    "views": 310,
+    "likes": 42
+  },
+  {
+    "id": "p7",
+    "title": "MacBook Air cho sinh viên cần học lập trình",
+    "price": 7200000,
+    "tradeType": "sale",
+    "category": "electronics",
+    "majorGroup": "architecture",
+    "description": "Bài minh họa UniSwap. Ảnh và thông tin dùng thử cho danh mục electronics. Khi đăng thật hãy dùng ảnh của chính món đồ và mô tả tình trạng thực tế.",
+    "condition": "98% không trầy xước",
+    "images": [
+      "/assets/prod-macbook.png"
+    ],
+    "seller": {
+      "id": "s7",
+      "name": "Bùi Gia Huy",
+      "studentId": "21112004",
+      "universityCode": "HUTECH",
+      "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=200&q=80",
+      "rating": 4.9,
+      "isVerified": true,
+      "isPro": false
+    },
+    "cluster": "binh-thanh",
+    "meetingSpot": "Sảnh Điện Biên Phủ HUTECH",
+    "createdAt": "6 giờ trước",
+    "status": "available",
+    "views": 220,
+    "likes": 19
+  },
+  {
+    "id": "p8",
+    "title": "Giày thể thao nam — pass lại cho bạn cần",
+    "price": 150000,
+    "tradeType": "sale",
+    "category": "fashion",
+    "majorGroup": "medical",
+    "description": "Bài minh họa UniSwap. Ảnh và thông tin dùng thử cho danh mục fashion. Khi đăng thật hãy dùng ảnh của chính món đồ và mô tả tình trạng thực tế.",
+    "condition": "90%",
+    "images": [
+      "/assets/prod-shoes.png"
+    ],
+    "seller": {
+      "id": "s8",
+      "name": "Ngô Thanh Hà",
+      "studentId": "21510109",
+      "universityCode": "UMP",
+      "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=200&q=80",
+      "rating": 5,
+      "isVerified": true,
+      "isPro": false
+    },
+    "cluster": "q10",
+    "meetingSpot": "Cổng Bệnh viện ĐHYD hoặc KTX Ngô Gia Tự",
+    "createdAt": "1 ngày trước",
+    "status": "available",
+    "views": 165,
+    "likes": 21
+  },
+  {
+    "id": "p9",
+    "title": "Móc khóa ếch len handmade",
+    "price": 60000,
+    "tradeType": "sale",
+    "category": "handmade",
+    "majorGroup": "it",
+    "description": "Bài minh họa giao diện UniSwap, chưa có người bán thật nhận tin nhắn.",
+    "condition": "95% (Có ghi chú chì)",
+    "images": [
+      "/assets/prod-frog.png"
+    ],
+    "seller": {
+      "id": "s1",
+      "name": "Trần Minh Đức",
+      "studentId": "22520311",
+      "universityCode": "UIT",
+      "avatar": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=200&q=80",
+      "rating": 5,
+      "isVerified": true,
+      "isPro": true
+    },
+    "cluster": "q5",
+    "meetingSpot": "Thư viện UIT tầng 1 hoặc KTX Khu B (Tòa B4)",
+    "createdAt": "10 phút trước",
+    "isUrgent": true,
+    "isPushed": true,
+    "pushedAt": "Vừa đẩy",
+    "status": "available",
+    "views": 142,
+    "likes": 18
+  },
+  {
+    "id": "p10",
+    "title": "Giày thể thao dùng tập luyện",
+    "price": 60000,
+    "tradeType": "sale",
+    "category": "sports",
+    "majorGroup": "it",
+    "description": "Bài minh họa giao diện UniSwap, chưa có người bán thật nhận tin nhắn.",
+    "condition": "95% (Có ghi chú chì)",
+    "images": [
+      "/assets/prod-shoes.png"
+    ],
+    "seller": {
+      "id": "s1",
+      "name": "Trần Minh Đức",
+      "studentId": "22520311",
+      "universityCode": "UIT",
+      "avatar": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=200&q=80",
+      "rating": 5,
+      "isVerified": true,
+      "isPro": true
+    },
+    "cluster": "q10",
+    "meetingSpot": "Thư viện UIT tầng 1 hoặc KTX Khu B (Tòa B4)",
+    "createdAt": "10 phút trước",
+    "isUrgent": true,
+    "isPushed": true,
+    "pushedAt": "Vừa đẩy",
+    "status": "available",
+    "views": 142,
+    "likes": 18
+  },
+  {
+    "id": "p11",
+    "title": "Đèn học cho góc tự học",
+    "price": 60000,
+    "tradeType": "sale",
+    "category": "stationery",
+    "majorGroup": "it",
+    "description": "Bài minh họa giao diện UniSwap, chưa có người bán thật nhận tin nhắn.",
+    "condition": "95% (Có ghi chú chì)",
+    "images": [
+      "/assets/prod-lamp.png"
+    ],
+    "seller": {
+      "id": "s1",
+      "name": "Trần Minh Đức",
+      "studentId": "22520311",
+      "universityCode": "UIT",
+      "avatar": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=200&q=80",
+      "rating": 5,
+      "isVerified": true,
+      "isPro": true
+    },
+    "cluster": "lang-dh",
+    "meetingSpot": "Thư viện UIT tầng 1 hoặc KTX Khu B (Tòa B4)",
+    "createdAt": "10 phút trước",
+    "isUrgent": true,
+    "isPushed": true,
+    "pushedAt": "Vừa đẩy",
+    "status": "available",
+    "views": 142,
+    "likes": 18
+  },
+  {
+    "id": "p12",
+    "title": "Balo sinh viên đựng laptop",
+    "price": 60000,
+    "tradeType": "sale",
+    "category": "other",
+    "majorGroup": "it",
+    "description": "Bài minh họa giao diện UniSwap, chưa có người bán thật nhận tin nhắn.",
+    "condition": "95% (Có ghi chú chì)",
+    "images": [
+      "/assets/prod-backpack.png"
+    ],
+    "seller": {
+      "id": "s1",
+      "name": "Trần Minh Đức",
+      "studentId": "22520311",
+      "universityCode": "UIT",
+      "avatar": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=200&q=80",
+      "rating": 5,
+      "isVerified": true,
+      "isPro": true
+    },
+    "cluster": "binh-thanh",
+    "meetingSpot": "Thư viện UIT tầng 1 hoặc KTX Khu B (Tòa B4)",
+    "createdAt": "10 phút trước",
+    "isUrgent": true,
+    "isPushed": true,
+    "pushedAt": "Vừa đẩy",
+    "status": "available",
+    "views": 142,
+    "likes": 18
+  },
+  {
+    "id": "p13",
+    "title": "Móc khóa ếch len handmade — tặng bạn cần",
+    "price": 0,
+    "tradeType": "giveaway",
+    "category": "handmade",
+    "majorGroup": "it",
+    "description": "Bài minh họa giao diện UniSwap, chưa có người bán thật nhận tin nhắn.",
+    "condition": "95% (Có ghi chú chì)",
+    "images": [
+      "/assets/prod-frog.png"
+    ],
+    "seller": {
+      "id": "s1",
+      "name": "Trần Minh Đức",
+      "studentId": "22520311",
+      "universityCode": "UIT",
+      "avatar": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=200&q=80",
+      "rating": 5,
+      "isVerified": true,
+      "isPro": true
+    },
+    "cluster": "q5",
+    "meetingSpot": "Thư viện UIT tầng 1 hoặc KTX Khu B (Tòa B4)",
+    "createdAt": "10 phút trước",
+    "isUrgent": true,
+    "isPushed": true,
+    "pushedAt": "Vừa đẩy",
+    "status": "available",
+    "views": 142,
+    "likes": 18
+  },
+  {
+    "id": "p14",
+    "title": "Giày thể thao dùng tập luyện — tặng bạn cần",
+    "price": 0,
+    "tradeType": "giveaway",
+    "category": "sports",
+    "majorGroup": "it",
+    "description": "Bài minh họa giao diện UniSwap, chưa có người bán thật nhận tin nhắn.",
+    "condition": "95% (Có ghi chú chì)",
+    "images": [
+      "/assets/prod-shoes.png"
+    ],
+    "seller": {
+      "id": "s1",
+      "name": "Trần Minh Đức",
+      "studentId": "22520311",
+      "universityCode": "UIT",
+      "avatar": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=200&q=80",
+      "rating": 5,
+      "isVerified": true,
+      "isPro": true
+    },
+    "cluster": "q10",
+    "meetingSpot": "Thư viện UIT tầng 1 hoặc KTX Khu B (Tòa B4)",
+    "createdAt": "10 phút trước",
+    "isUrgent": true,
+    "isPushed": true,
+    "pushedAt": "Vừa đẩy",
+    "status": "available",
+    "views": 142,
+    "likes": 18
+  },
+  {
+    "id": "p15",
+    "title": "Đèn học cho góc tự học — tặng bạn cần",
+    "price": 0,
+    "tradeType": "giveaway",
+    "category": "stationery",
+    "majorGroup": "it",
+    "description": "Bài minh họa giao diện UniSwap, chưa có người bán thật nhận tin nhắn.",
+    "condition": "95% (Có ghi chú chì)",
+    "images": [
+      "/assets/prod-lamp.png"
+    ],
+    "seller": {
+      "id": "s1",
+      "name": "Trần Minh Đức",
+      "studentId": "22520311",
+      "universityCode": "UIT",
+      "avatar": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=200&q=80",
+      "rating": 5,
+      "isVerified": true,
+      "isPro": true
+    },
+    "cluster": "lang-dh",
+    "meetingSpot": "Thư viện UIT tầng 1 hoặc KTX Khu B (Tòa B4)",
+    "createdAt": "10 phút trước",
+    "isUrgent": true,
+    "isPushed": true,
+    "pushedAt": "Vừa đẩy",
+    "status": "available",
+    "views": 142,
+    "likes": 18
+  },
+  {
+    "id": "p16",
+    "title": "Balo sinh viên đựng laptop — tặng bạn cần",
+    "price": 0,
+    "tradeType": "giveaway",
+    "category": "other",
+    "majorGroup": "it",
+    "description": "Bài minh họa giao diện UniSwap, chưa có người bán thật nhận tin nhắn.",
+    "condition": "95% (Có ghi chú chì)",
+    "images": [
+      "/assets/prod-backpack.png"
+    ],
+    "seller": {
+      "id": "s1",
+      "name": "Trần Minh Đức",
+      "studentId": "22520311",
+      "universityCode": "UIT",
+      "avatar": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=200&q=80",
+      "rating": 5,
+      "isVerified": true,
+      "isPro": true
+    },
+    "cluster": "binh-thanh",
+    "meetingSpot": "Thư viện UIT tầng 1 hoặc KTX Khu B (Tòa B4)",
+    "createdAt": "10 phút trước",
+    "isUrgent": true,
+    "isPushed": true,
+    "pushedAt": "Vừa đẩy",
+    "status": "available",
+    "views": 142,
+    "likes": 18
+  }
+]
