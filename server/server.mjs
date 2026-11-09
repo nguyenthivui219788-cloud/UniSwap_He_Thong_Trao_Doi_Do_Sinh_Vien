@@ -968,6 +968,6 @@ const server = http.createServer(async (req, res) => {
     else res.end();
   }
 });
-server.listen(Number(process.env.PORT || 3001), "127.0.0.1", () =>
+server.listen(Number(process.env.PORT || 3001), process.env.HOST || "127.0.0.1", () =>
   console.log("UniSwap: http://localhost:" + (process.env.PORT || 3001)),
 );

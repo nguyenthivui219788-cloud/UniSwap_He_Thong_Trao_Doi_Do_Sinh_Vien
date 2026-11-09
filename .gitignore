@@ -24,7 +24,8 @@ dist-ssr
 *.sw?
 
 # Local application data
-data/
+# Only runtime data at the project root; src/data contains source files.
+/data/
 .cache/
 backups/
 backups_tinh_tuy_tu_E/
