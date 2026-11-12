@@ -1,67 +1,112 @@
-# Bản nâng cấp Premium
+<div align="center">
 
-- Xem ba gói tại http://localhost:5173/?page=premium sau khi chạy web.
-- Bàn giao và quyền lợi: [docs/BAN_GIAO_PREMIUM.md](docs/BAN_GIAO_PREMIUM.md).
-- Học và kết nối API: [docs/HUONG_DAN_API_THUC_HANH.md](docs/HUONG_DAN_API_THUC_HANH.md).
-- VNPAY/SMTP cần thông tin dịch vụ riêng trong .env để vận hành thật. Mô phỏng local không thu tiền.
+# ⚡ UNISWAP — HỆ THỐNG TRAO ĐỔI ĐỒ SINH VIÊN THÔNG MINH
+[![Status](https://img.shields.io/badge/Status-Ho%E1%BA%A1t%2_%C4%90%E1%BB%99ng-success?style=for-the-badge&logo=appveyor)](https://uniswap.id.vn)
+[![Domain](https://img.shields.io/badge/Domain-uniswap.id.vn-blue?style=for-the-badge&logo=google-chrome)](https://uniswap.id.vn)
+[![Platform](https://img.shields.io/badge/Platform-Web%20Fullstack-orange?style=for-the-badge&logo=react)](https://github.com/nguyenthivui219788-cloud/UniSwap_He_Thong_Trao_Doi_Do_Sinh_Vien)
+[![License](https://img.shields.io/badge/License-MIT-yellow.badge?style=for-the-badge)](https://github.com/nguyenthivui219788-cloud/UniSwap_He_Thong_Trao_Doi_Do_Sinh_Vien)
 
-# UniSwap — Trao đổi đồ sinh viên
+*Nền tảng kết nối trao đổi, mua bán, cho mượn và tặng đồ dùng học tập hàng đầu dành cho sinh viên.*
 
-Bản mở rộng ngày **27/10/2026**: React/TypeScript/Vite, Node.js và SQLite. Giữ dữ liệu tài khoản, bài đăng và giao dịch hiện có; cập nhật cấu trúc dữ liệu tự động khi khởi động.
+🌐 **Trang web chính thức:** [https://uniswap.id.vn](https://uniswap.id.vn)
 
-## Chạy trên Windows
+</div>
 
-Yêu cầu Node.js **24 trở lên**.
+---
+
+## 🌟 1. Giới thiệu tổng quan (Overview)
+**UniSwap** là hệ sinh thái số toàn diện được xây dựng nhằm giải quyết bài toán thanh lý, trao đổi, cho mượn đồ dùng học tập, sách vở và thiết bị ký túc xá giữa các sinh viên trong trường đại học. 
+
+Dự án tích hợp các công nghệ hiện đại từ giao diện người dùng mượt mà đến hệ thống xử lý backend tối ưu, kết hợp mô phỏng trạm khóa tủ thông minh và hệ thống thanh toán điện tử, mang đến trải nghiệm tiện lợi, an toàn và văn minh cho cộng đồng sinh viên.
+
+---
+
+## 🏗️ 2. Sơ đồ kiến trúc & Cấu trúc thư mục (Architecture)
+Hệ thống được thiết kế theo mô hình client-server hiện đại, phân tách rõ ràng giữa mã nguồn giao diện và logic máy chủ:
 
 ```text
+UniSwap_He_Thong_Trao_Doi_Do_Sinh_Vien/
+│
+├── admin/                     # Giao diện quản trị hệ thống (Admin panel)
+├── database/                  # Quản lý cơ sở dữ liệu và dữ liệu mẫu
+├── docs/                      # Tài liệu kỹ thuật, hướng dẫn API & bàn giao Premium
+├── public/                    # Tài nguyên tĩnh (Hình ảnh, icon, asset)
+├── server/                    # Mã nguồn backend (Node.js, xử lý API, platform.mjs)
+├── src/                       # Mã nguồn frontend (React, TypeScript, Vite)
+├── tests/                     # Kịch bản kiểm thử hệ thống tự động
+├── .env.example               # Mẫu cấu hình biến môi trường
+├── CHAY_WEB_UNISWAP.bat       # Script khởi động nhanh trên Windows
+├── DUNG_WEB_UNISWAP.bat       # Script dừng tiến trình web an toàn
+└── README.md                  # Tài liệu mô tả dự án
+```
+
+## 💻 3. Công nghệ sử dụng (Tech Stack)
+Dự án áp dụng stack công nghệ hiện đại, hiệu suất cao và tối ưu trải nghiệm người dùng:
+
+Frontend: React, TypeScript, Vite, giao diện tùy chỉnh tương thích đa thiết bị (Desktop & Mobile).
+
+Backend: Node.js, xử lý API bất đồng bộ, kiến trúc module hóa an toàn.
+
+Database: SQLite lưu trữ cục bộ tối ưu, tự động cập nhật cấu trúc dữ liệu khi khởi động.
+
+Thanh toán & Dịch vụ: Tích hợp luồng thanh toán VNPAY (có chế độ mô phỏng local) và cấu hình SMTP cho hệ thống email.
+
+## ✨ 4. Các tính năng cốt lõi (Key Features)
+👤 A. Xác thực & Quản lý tài khoản
+Đăng ký bằng email trường, phân quyền linh hoạt (Người mua / Người bán / Cả hai).
+
+Xác minh email, khôi phục mật khẩu, đổi mật khẩu và tính năng bảo mật thu hồi phiên đăng nhập.
+
+📦 B. Đăng tin & Quản lý sản phẩm đa hình thức
+Hỗ trợ đa dạng hình thức: Đăng bán, Trao đổi, Tặng cho, Cho mượn.
+
+Quản lý trạng thái tin đăng (tạm ẩn, hết hạn, đăng lại có thời gian chờ), thống kê lượt xem, lượt lưu và tương tác.
+
+Tìm kiếm tiếng Việt thông minh không dấu, lọc theo ngành, môn học, khu vực, khoảng cách tọa độ thực tế và tin cần mua.
+
+🤝 C. Giao dịch, Đổi món & Tủ thông minh
+Đề nghị giá, đổi món hai chiều kèm bù tiền, đặt giữ chống trùng lịch hẹn.
+
+Hệ thống vòng mượn/trả đồ, gia hạn thời gian và mô phỏng 24 ngăn tủ thông minh với mã nhận dùng một lần.
+
+📚 D. Cộng đồng & Tiện ích nâng cao
+Không gian đọc sách, học nhóm, kết nối gia sư theo giờ với hệ thống đăng ký sức chứa linh hoạt.
+
+Gói nâng cấp Premium với nhiều quyền lợi mở rộng.
+
+Trang quản trị phân quyền chặt chẽ giúp kiểm duyệt tin đăng, xử lý báo cáo và tạm khóa tài khoản vi phạm.
+
+## 🚀 5. Hướng dẫn cài đặt & Chạy dự án (Getting Started)
+Yêu cầu hệ thống:
+Đã cài đặt Node.js (phiên bản 24 trở lên).
+
+Các bước chạy trên môi trường Local (Windows):
+Mở terminal tại thư mục chứa dự án và chạy lệnh cài đặt thư viện:
+
+```
 cd /d D:\SWAP
 npm ci
+```
+Khởi động môi trường phát triển:
+
+```
 npm run dev
 ```
+Mở trình duyệt và truy cập: http://localhost:5173.(Hoặc nhanh chóng bấm đúp vào file CHAY_WEB_UNISWAP.bat sẵn có trong thư mục).
 
-Mở **http://localhost:5173**. Có thể bấm đúp `CHAY_WEB_UNISWAP.bat`. Giữ cửa sổ chạy web mở. Dùng `DUNG_WEB_UNISWAP.bat` để dừng đúng phiên của thư mục này trước khi khởi chạy lại.
-
-Chạy bản đã biên dịch: `npm run build`, sau đó `npm start`, mở **http://localhost:3001**. Không mở file `index.html` trực tiếp.
-
-## Các chức năng hiện có
-
-- Đăng ký email trường; chọn người mua/người bán/cả hai; hồ sơ, ảnh đại diện, xác minh email, quên/đổi mật khẩu và thu hồi phiên đăng nhập.
-- Đăng bán/đổi/tặng/cho mượn; bản nháp, xem trước, ảnh bìa, sắp xếp ảnh, thuộc tính theo danh mục, tên bộ đồ và lịch nhận thuận tiện.
-- Quản lý tin theo trạng thái, tạm ẩn, hết hạn, đăng lại có thời gian chờ; hạn mức Free/Premium và thống kê lượt xem/lưu/liên hệ.
-- Tìm kiếm tiếng Việt không dấu, theo môn/ngành/phiên bản và thông tin sản phẩm; lọc khu vực/trường/hình thức/giá/tình trạng; tìm theo khoảng cách với tọa độ thật.
-- Tin cần mua/cần tìm: ngân sách, thời điểm cần, khu vực; người bán gợi ý món của mình.
-- Đề nghị giá; đổi món hai chiều và bù tiền; đặt giữ chống trùng, lịch hẹn, thay đổi lịch cần bên kia đồng ý, tự hết hạn giữ chỗ.
-- Vòng mượn/trả đồ, đề nghị gia hạn, xác nhận trả và nhắc hẹn trong ứng dụng.
-- Mô phỏng 24 ngăn tủ; mã nhận dùng một lần, hết hạn 15 phút, giới hạn nhập sai; giữ bản thông tin tại thời điểm giao dịch.
-- Yêu thích, lịch sử xem trên thiết bị, bộ lọc đã lưu và thông báo khi có món phù hợp; theo dõi/chặn người bán; đánh giá một lần sau giao dịch.
-- Tin nhắn riêng tư, hộp thư có số chưa đọc và trạng thái đã đọc.
-- Cộng đồng đọc sách/học nhóm/gia sư theo giờ: lịch, sức chứa, đăng ký/rời nhóm, đóng/mở nhận thành viên, phản hồi.
-- Đăng ký dịch vụ có thời hạn; luồng VNPAY có kiểm tra chữ ký và số tiền; mô phỏng được gắn nhãn trong chế độ cục bộ.
-- Trang quản trị có phân quyền: báo cáo, ẩn/khôi phục tin, xử lý báo cáo, tạm khóa tài khoản và nhật ký.
-- Hiệu ứng rê chuột/chuyển màu nhẹ, ảnh phóng vừa phải, chuyển cảnh hộp thoại, thẻ xuất hiện khi cuộn và trạng thái đang tải. Tôn trọng lựa chọn giảm chuyển động của thiết bị; có thanh điều hướng điện thoại.
-
-Các bài mẫu có nhãn rõ ràng, không nhận đặt giữ hoặc có người bán tự trả lời giả.
-
-## Cấu hình và vận hành
-
-- [Cấu hình email, Premium, VNPAY và quản trị](docs/CAU_HINH_V2.md).
-- [Phương án vận hành ngoài đời và thử trong 4 tuần](docs/VAN_HANH_THUC_TE.md).
-- [Báo cáo rà soát ảnh và ghi âm của bản ban đầu](docs/BAO_CAO_RA_SOAT.md).
-
-**Chưa có dịch vụ bên ngoài được tự cấu hình:** email thật cần SMTP của bạn; thanh toán thật cần merchant VNPAY và kiểm tra tích hợp; tủ thật cần thiết bị và quy trình xác nhận ngăn trống. Link xác minh và kích hoạt Premium trong chế độ thử không chứng minh có email/tiền thật. Không tự tạo tài khoản quản trị mặc định.
-
-Tài khoản cũ chưa xác minh cần vào **Tài khoản → Gửi lại liên kết xác minh**. Trên localhost, khi chưa có SMTP, có liên kết thử được gắn nhãn. Khi vận hành, dùng `NODE_ENV=production`, `SWAP_MODE=production`, HTTPS và cấu hình dịch vụ thật; quyền mô phỏng không có hiệu lực ở chế độ này.
-
-Dữ liệu SQLite ở `data/swap.sqlite`; `.env` và `data/` không đưa lên Git hoặc phục vụ công khai. Mặc định máy chủ chỉ nghe ở `127.0.0.1`; triển khai qua reverse proxy HTTPS. Chi tiết trong tài liệu cấu hình.
-
-## Kiểm tra
-
-```text
-npm run lint
+Chạy phiên bản sản xuất (Production Build):
+```
 npm run build
-npm test
+npm start
+```
+Truy cập ứng dụng tại: http://localhost:3001.
+
+## 🌐 6. Triển khai thực tế
+Tên miền truy cập chính thức: 
+```
+https://uniswap.id.vn
 ```
 
-Kiểm thử dùng cơ sở dữ liệu và tài khoản giả riêng trong `.cache`, không trộn với dữ liệu sử dụng. Điểm bắt đầu của mã là `src/App.tsx`; phần nghiệp vụ mở rộng ở `server/platform.mjs`, API nền ở `server/server.mjs`. Phần giao diện cũ trong `legacy/` chỉ để tham khảo, không biên dịch vào ứng dụng.
+Dữ liệu cục bộ được lưu trữ an toàn tại thư mục data/.
 
-Bản demo trang phụ: [docs/DEMO_TRANG_PHU.md](docs/DEMO_TRANG_PHU.md). Mở http://localhost:5173/kho-demo sau khi chạy web.
+Bây giờ bạn chỉ cần copy toàn bộ nội dung trên dán đè vào file README.md trên GitHub là repo trông sẽ cực kỳ chuyên nghiệp, nổi bật tên miền uniswap.id.vn và sẵn sàng chinh phục mọi vòng tiếp theo nhé! Chúc dự án của bạn tiến thật xa!
